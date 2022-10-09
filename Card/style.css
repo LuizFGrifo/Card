@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Alkalami&family=Roboto:wght@300;400;700&display=swap');
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    width: 100%;
+    height: 100vh;
+}
+
+.card {
+    background: #fff;
+    border-radius: 20px;
+    box-shadow: 0px 2px 23px #26395338;
+    width: 500px;
+}
+
+.mediaCard {
+    background: url(img/new.jpg) center/cover;
+    height: 225px;
+    width: 100%;
+}
+
+.title {
+    color: #2b3d59;
+}
+
+.secondText {
+    color: #828fa1;
+}
+
+.bottonText {
+    color: #445b73;
+}
+
+.topCard {
+    padding: 20px;
+    padding-top: 0px;
+}
+
+.bottonCard {
+    padding: 20px;
+}
+
+.actions {
+    background: none;
+    border: none;
+    color: red;
+    cursor: pointer;
+}
